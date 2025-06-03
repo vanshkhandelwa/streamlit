@@ -11,7 +11,7 @@ Type a rough resume bullet point below and let AI suggest a polished, profession
 input_text = st.text_area("Your draft bullet point:", height=120)
 role = st.text_input("Optional: Target job role (e.g., Software Engineer, Data Analyst):")
 
-BACKEND_URL ="https://resume-4-on1x.onrender.com/suggest-bullets"   # Replace with your backend URL
+BACKEND_URL ="https://resume-8-3127.onrender.com/suggest-bullets"   # Replace with your backend URL
 
 if st.button("Enhance Bullet Point"):
     if not input_text.strip():
